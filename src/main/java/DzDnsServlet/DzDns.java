@@ -12,7 +12,7 @@ public class DzDns extends HttpServlet {
     public void doGet (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("Hi, you are on the DzDns test project page!  Version: 2.5");
+        out.println("Hi, you are on the DzDns test project page!  Version: 2.6");
 
     }
 }
